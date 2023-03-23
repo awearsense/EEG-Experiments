@@ -1,7 +1,3 @@
-# EEG-Experiments
-A list of EEG Experiments
-
-
 ## Posner Task
 
 ### Introduction
