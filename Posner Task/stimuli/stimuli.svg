@@ -1,0 +1,599 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1052.3622"
+   height="744.09448"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.3.1 r9886"
+   sodipodi:docname="stimuli.svg"
+   inkscape:export-filename="/home/stoet/work-tmp/lesson/logo.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
+  <defs
+     id="defs4">
+    <linearGradient
+       id="linearGradient3780">
+      <stop
+         style="stop-color:#5a5aff;stop-opacity:1;"
+         offset="0"
+         id="stop3782" />
+      <stop
+         style="stop-color:#0000ff;stop-opacity:0;"
+         offset="1"
+         id="stop3784" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3780-5"
+       id="linearGradient3786-8"
+       x1="-462.85715"
+       y1="646.64789"
+       x2="337.14285"
+       y2="646.64789"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient3780-5">
+      <stop
+         style="stop-color:#0000ff;stop-opacity:1;"
+         offset="0"
+         id="stop3782-7" />
+      <stop
+         style="stop-color:#0000ff;stop-opacity:0;"
+         offset="1"
+         id="stop3784-3" />
+    </linearGradient>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath3883">
+      <rect
+         style="opacity:0.6017699;color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="rect3885"
+         width="800"
+         height="100"
+         x="-244.43652"
+         y="887.20477" />
+    </clipPath>
+    <filter
+       id="filter3990"
+       x="-0.25"
+       width="1.5"
+       y="-0.25"
+       height="1.5"
+       inkscape:menu-tooltip="Thick acrylic paint texture with high texture depth"
+       inkscape:menu="Bumps"
+       inkscape:label="Thick acrylic"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         id="feGaussianBlur3992"
+         result="result9"
+         in="SourceGraphic"
+         stdDeviation="1" />
+      <feTurbulence
+         id="feTurbulence3994"
+         baseFrequency="0.02"
+         numOctaves="5"
+         type="fractalNoise"
+         result="result7"
+         seed="0" />
+      <feColorMatrix
+         id="feColorMatrix3996"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0 "
+         result="result5" />
+      <feComposite
+         id="feComposite3998"
+         in2="result5"
+         in="result9"
+         operator="out"
+         result="result6" />
+      <feGaussianBlur
+         id="feGaussianBlur4000"
+         stdDeviation="0.5"
+         result="result11" />
+      <feDisplacementMap
+         id="feDisplacementMap4002"
+         in2="result11"
+         result="result4"
+         scale="100"
+         yChannelSelector="G"
+         xChannelSelector="A"
+         in="result5" />
+      <feComposite
+         id="feComposite4004"
+         in2="result4"
+         in="result9"
+         operator="in"
+         result="result2" />
+      <feComposite
+         id="feComposite4006"
+         in2="SourceGraphic"
+         operator="in"
+         result="fbSourceGraphic" />
+      <feBlend
+         id="feBlend4008"
+         in2="fbSourceGraphic"
+         mode="multiply"
+         result="fbSourceGraphic" />
+      <feDiffuseLighting
+         id="feDiffuseLighting4010"
+         diffuseConstant="0.69999999"
+         surfaceScale="10"
+         in="fbSourceGraphic"
+         result="result10">
+        <feDistantLight
+           id="feDistantLight4012"
+           elevation="25"
+           azimuth="235" />
+      </feDiffuseLighting>
+      <feComposite
+         id="feComposite4014"
+         in2="fbSourceGraphic"
+         operator="in"
+         result="result2"
+         in="result10" />
+      <feComposite
+         id="feComposite4016"
+         in2="result2"
+         k3="1"
+         k2="1"
+         operator="arithmetic"
+         result="result4"
+         in="fbSourceGraphic"
+         k1="0"
+         k4="0" />
+    </filter>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lend"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path3910"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="1"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.99987302"
+     inkscape:cx="970.23748"
+     inkscape:cy="330.04191"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1631"
+     inkscape:window-height="936"
+     inkscape:window-x="2"
+     inkscape:window-y="79"
+     inkscape:window-maximized="0"
+     showborder="false"
+     inkscape:showpageshadow="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     borderlayer="false"
+     showguides="true"
+     inkscape:guide-bbox="true" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(597.2074,-246.62438)">
+    <rect
+       y="767.21387"
+       x="-363.9848"
+       height="71.262459"
+       width="85.299004"
+       id="rect4083"
+       style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       inkscape:export-filename="box.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       y="792.04773"
+       x="-177.19078"
+       height="43.189369"
+       width="37.790699"
+       id="rect4081"
+       style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       inkscape:export-filename="fixpoint1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect4075"
+       width="50.747509"
+       height="53.98671"
+       x="-424.44992"
+       y="773.69226"
+       inkscape:export-filename="gosignal.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="color:#000000;fill:#7fff00;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="path4063"
+       sodipodi:cx="196.51163"
+       sodipodi:cy="557.30048"
+       sodipodi:rx="23.754152"
+       sodipodi:ry="22.674419"
+       d="m 220.26578,557.30048 c 0,12.52273 -10.6351,22.67442 -23.75415,22.67442 -13.11906,0 -23.75416,-10.15169 -23.75416,-22.67442 0,-12.52274 10.6351,-22.67442 23.75416,-22.67442 13.11905,0 23.75415,10.15168 23.75415,22.67442 z"
+       transform="translate(-595.58779,243.38514)"
+       inkscape:export-filename="gosignal.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       xml:space="preserve"
+       style="font-size:22px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Bitstream Vera Sans;-inkscape-font-specification:Bitstream Vera Sans"
+       x="-351.49313"
+       y="487.86172"
+       id="text3261"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3263"
+         x="-351.49313"
+         y="487.86172"
+         style="font-weight:bold" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:22px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Bitstream Vera Sans;-inkscape-font-specification:Bitstream Vera Sans"
+       x="-416.26367"
+       y="808.69391"
+       id="text4059"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="gosignal.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan4061"
+         x="-416.26367"
+         y="808.69391">GO</tspan></text>
+    <rect
+       style="color:#000000;fill:none;stroke:#ffd700;stroke-width:5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect4065"
+       width="69.102989"
+       height="60.465115"
+       x="-355.88678"
+       y="772.61255"
+       inkscape:export-filename="box.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect4085"
+       width="37.790699"
+       height="43.189369"
+       x="-253.8519"
+       y="821.20056"
+       inkscape:export-filename="cuesignal.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       xml:space="preserve"
+       style="font-size:46.98989868px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#7cfc00;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Bitstream Vera Sans;-inkscape-font-specification:Bitstream Vera Sans"
+       x="-232.40942"
+       y="918.71802"
+       id="text4067"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="cuesignal.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       transform="scale(1.074839,0.9303719)"><tspan
+         sodipodi:role="line"
+         id="tspan4069"
+         x="-232.40942"
+         y="918.71802">x</tspan></text>
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="instruction.png"
+       style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect3072"
+       width="548.505"
+       height="324.47818"
+       x="-296.62048"
+       y="370.10327" />
+    <rect
+       y="370.10327"
+       x="291.75311"
+       height="324.47818"
+       width="548.505"
+       id="rect4079-6"
+       style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       inkscape:export-filename="afterwords.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path3074"
+       d="m -286.50335,637.91283 0,19.87499 c 0,14.7199 12.6122,26.5625 28.28125,26.5625 l 473.75,0 c 15.01996,0 27.23265,-10.8825 28.21875,-24.75 l 0,-21.68749 -530.25,0 z"
+       style="color:#000000;fill:#00ff00;stroke:none;stroke-width:5.33780861;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       inkscape:export-filename="instruction.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="color:#000000;fill:#00ff00;stroke:none;stroke-width:5.33780861;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       d="m 301.87022,637.91283 0,19.87499 c 0,14.7199 12.61219,26.5625 28.28125,26.5625 l 473.74995,0 c 15.02003,0 27.23273,-10.8825 28.21883,-24.75 l 0,-21.68749 -530.25003,0 z"
+       id="rect3046"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="afterwords.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="instruction.png"
+       ry="26.570223"
+       rx="28.283499"
+       y="379.87073"
+       x="-285.4245"
+       height="305.55756"
+       width="530.31561"
+       id="rect3076"
+       style="color:#000000;fill:none;stroke:#ff0000;stroke-width:5.33780861;stroke-miterlimit:4;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    <rect
+       style="color:#000000;fill:none;stroke:#ff0000;stroke-width:5.33780861;stroke-miterlimit:4;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect3283-5"
+       width="530.31561"
+       height="305.55756"
+       x="302.9491"
+       y="379.87073"
+       rx="28.283499"
+       ry="26.570223"
+       inkscape:export-filename="afterwords.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="afterwords.png"
+       sodipodi:linespacing="125%"
+       id="text3164"
+       y="461.17664"
+       x="334.77994"
+       style="font-size:13.99411678px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#ffff00;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Bitstream Vera Sans;-inkscape-font-specification:Bitstream Vera Sans"
+       xml:space="preserve"
+       transform="scale(1.0095468,0.99054347)"><tspan
+         style="font-weight:bold;fill:#ffff00"
+         y="461.17664"
+         x="334.77994"
+         id="tspan3166"
+         sodipodi:role="line">Now that you are done...</tspan><tspan
+         style="font-weight:normal;fill:#ffff00"
+         y="478.66928"
+         x="334.77994"
+         sodipodi:role="line"
+         id="tspan3463">Did you notice that 25% of the cues were &quot;invalid&quot;, that is,</tspan><tspan
+         style="font-weight:normal;fill:#ffff00"
+         y="496.16193"
+         x="334.77994"
+         sodipodi:role="line"
+         id="tspan3469">they appeared on the opposite side of the GO stimulus?</tspan><tspan
+         style="font-weight:normal;fill:#ffff00"
+         y="513.65454"
+         x="334.77994"
+         sodipodi:role="line"
+         id="tspan3051" /><tspan
+         style="font-weight:normal;fill:#ffff00"
+         y="531.14722"
+         x="334.77994"
+         sodipodi:role="line"
+         id="tspan3090">Through a learning process, you start to associate the cue</tspan><tspan
+         style="font-weight:normal;fill:#ffff00"
+         y="548.63983"
+         x="334.77994"
+         sodipodi:role="line"
+         id="tspan3092">and the target location. That said, at the current timing, you</tspan><tspan
+         style="font-weight:normal;fill:#ffff00"
+         y="566.13251"
+         x="334.77994"
+         sodipodi:role="line"
+         id="tspan3094">would probably always respond more quickly to the cued location,</tspan><tspan
+         style="font-weight:normal;fill:#ffff00"
+         y="583.62518"
+         x="334.77994"
+         sodipodi:role="line"
+         id="tspan3096">even with just 50% validity.</tspan><tspan
+         style="font-weight:normal;fill:#ffff00"
+         y="601.1178"
+         x="334.77994"
+         sodipodi:role="line"
+         id="tspan3475" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:22px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#006400;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Bitstream Vera Sans;-inkscape-font-specification:Bitstream Vera Sans"
+       x="407.94632"
+       y="640.10669"
+       id="text3265-6"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="afterwords.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         x="407.94632"
+         y="640.10669"
+         id="tspan3032-9" /><tspan
+         sodipodi:role="line"
+         x="407.94632"
+         y="667.60669"
+         id="tspan3034-3"
+         style="font-weight:bold;fill:#006400">Press the space bar to exit</tspan></text>
+    <text
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="instruction.png"
+       sodipodi:linespacing="125%"
+       id="text3062"
+       y="640.10669"
+       x="-221.41322"
+       style="font-size:22px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#006400;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Bitstream Vera Sans;-inkscape-font-specification:Bitstream Vera Sans"
+       xml:space="preserve"><tspan
+         id="tspan3064"
+         y="640.10669"
+         x="-221.41322"
+         sodipodi:role="line" /><tspan
+         style="font-weight:bold;fill:#006400"
+         id="tspan3066"
+         y="667.60669"
+         x="-221.41322"
+         sodipodi:role="line">Press the space bar to continue</tspan></text>
+    <text
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="instruction.png"
+       sodipodi:linespacing="125%"
+       id="text3404"
+       y="418.76114"
+       x="-252.59026"
+       style="font-size:22px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#00ff00;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Bitstream Vera Sans;-inkscape-font-specification:Bitstream Vera Sans"
+       xml:space="preserve"><tspan
+         style="font-weight:bold;fill:#00bfff;stroke:none"
+         y="418.76114"
+         x="-252.59026"
+         id="tspan3406"
+         sodipodi:role="line">Cueing experiment</tspan><tspan
+         id="tspan3414"
+         y="446.26114"
+         x="-252.59026"
+         sodipodi:role="line">You will see a fixation point and two boxes.</tspan><tspan
+         id="tspan3416"
+         y="473.76114"
+         x="-252.59026"
+         sodipodi:role="line">Press the left key (A) if you see</tspan><tspan
+         id="tspan3418"
+         y="501.26114"
+         x="-252.59026"
+         sodipodi:role="line">a go signal in the left box, and the right</tspan><tspan
+         id="tspan3420"
+         y="528.76111"
+         x="-252.59026"
+         sodipodi:role="line">key (L) button if you see a go signal in the</tspan><tspan
+         id="tspan3422"
+         y="556.26111"
+         x="-252.59026"
+         sodipodi:role="line">right box. Every trial, you will see</tspan><tspan
+         id="tspan3424"
+         y="583.76111"
+         x="-252.59026"
+         sodipodi:role="line">an X, which is a cue. Do not respond to</tspan><tspan
+         id="tspan3426"
+         y="611.26111"
+         x="-252.59026"
+         sodipodi:role="line">it, just ignore it! There are 100 trials.</tspan></text>
+    <rect
+       style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect3144"
+       width="1.9334706"
+       height="18.280163"
+       x="-159.26216"
+       y="804.50232"
+       inkscape:export-filename="fixpoint1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       y="149.15535"
+       x="812.67566"
+       height="18.280163"
+       width="1.9334706"
+       id="rect3146"
+       style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       transform="matrix(0,1,-1,0,0,0)"
+       inkscape:export-filename="fixpoint1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       y="791.24426"
+       x="-130.44833"
+       height="43.189369"
+       width="37.790699"
+       id="rect4081-0"
+       style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       inkscape:export-filename="fixpoint2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:8.30000019;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect3144-2"
+       width="4.9215722"
+       height="21.268267"
+       x="-114.01377"
+       y="802.20483"
+       inkscape:export-filename="fixpoint2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       y="100.91885"
+       x="810.37817"
+       height="21.268267"
+       width="4.9215722"
+       id="rect3948"
+       style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:8.30000019;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       transform="matrix(0,1,-1,0,0,0)"
+       inkscape:export-filename="fixpoint2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       y="791.59583"
+       x="-81.584084"
+       height="43.189369"
+       width="37.790699"
+       id="rect4081-0-0"
+       style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       inkscape:export-filename="fixpoint3.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:8.30000019;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect3144-2-3"
+       width="7.7339034"
+       height="30.056805"
+       x="-66.555687"
+       y="798.16211"
+       inkscape:export-filename="fixpoint3.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       y="47.660332"
+       x="809.32355"
+       height="30.056805"
+       width="7.7339034"
+       id="rect3991"
+       style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:8.30000019;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       transform="matrix(0,1,-1,0,0,0)"
+       inkscape:export-filename="fixpoint3.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+  </g>
+</svg>

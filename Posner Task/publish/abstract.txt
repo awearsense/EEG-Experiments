@@ -1,0 +1,1 @@
+On the screen are two yellow boxes. A "go" stimulus will appear in one of those, and the participant needs to press the left or right shift key in response to it. Sometimes, "go" is preceded by a cue.
