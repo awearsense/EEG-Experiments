@@ -1,0 +1,119 @@
+options
+  bitmapdir stimuli
+  set &dummy 0
+  set &maxResponseTime 3000
+  set &minInterval 1000
+  set &maxInterval 3000  
+
+fonts
+  arial 18
+  
+bitmaps
+  instruction_simple_task
+  instruction_choice_task1
+  instruction_choice_task2
+  instruction_choice_task3
+  readytraining
+  readyreal
+  thankyou
+  title
+  too_slow
+  wrong_key
+  reminder
+  box_empty
+  box_cross
+
+table dl_choice
+  4 -150 1
+  4 -50  2
+  4  50  3
+  4 150  4
+
+task dl_task_simple
+  keys space
+  set $num_choices 1
+  show background 0 0 100
+  show bitmap box_empty
+  set $randomdelay random &minInterval &maxInterval
+  delay $randomdelay
+  show bitmap box_cross
+  readkey 1 &maxResponseTime
+  clear 3
+  save BLOCKNAME &training $num_choices $randomdelay &dummy RT STATUS
+
+task dl_task_choice
+  table dl_choice
+  keys z x comma period
+  show background 0 0 100
+  show bitmap box_empty -150 0
+  show bitmap box_empty -50 0
+  show bitmap box_empty  50 0
+  show bitmap box_empty  150 0
+  set $randomdelay random &minInterval &maxInterval
+  delay $randomdelay
+  show bitmap box_cross  @2 0
+  readkey @3 &maxResponseTime
+  clear 6
+  if &training == 1 && STATUS != CORRECT ## only during training give feedback
+    if STATUS == WRONG
+      show bitmap wrong_key
+    fi
+    if STATUS == TIMEOUT
+      show bitmap too_slow
+    fi
+    delay 700
+    clear -1
+    show bitmap reminder
+    delay 2000
+    clear -1
+  fi
+  save BLOCKNAME &training @1 $randomdelay @2 RT STATUS
+
+######################################################################
+## blocks start here
+
+block dlsimple_training
+  set &training 1
+  message title
+  message instruction_simple_task
+  message readytraining
+  tasklist
+    dl_task_simple 8
+  end
+  delay 1000
+
+block dlsimple_real
+  set &training 0
+  message readyreal
+  tasklist
+    dl_task_simple 20
+  end
+  delay 1000
+
+block dlchoice_training
+  set &training 1
+  message instruction_choice_task1
+  message instruction_choice_task2
+  message instruction_choice_task3  
+  message readytraining
+  tasklist
+    dl_task_choice 8 no_repeat
+  end
+  delay 1000
+  
+block dlchoice_real
+  set &training 0
+  message readyreal
+  tasklist
+    dl_task_choice 40 no_repeat
+  end
+  feedback
+    set &simpleRt mean c6 ; select c2 == 0 && c7 == 1 && c3 == 1
+    set &choiceRt mean c6 ; select c2 == 0 && c7 == 1 && c3 == 4
+    text 0 -200 "Your response speed in correct trials, training not included:"
+    text 0 -100 &simpleRt ; prefix "In simple task:" ; postfix "ms"
+    text 0    0 &choiceRt ; prefix "In choice task:" ; postfix "ms"
+    text 0 100 "Write numbers down, and press space bar to continue"
+  end
+  
+message thankyou

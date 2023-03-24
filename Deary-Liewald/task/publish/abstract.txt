@@ -1,0 +1,5 @@
+The Deary-Liewald task was first published in Behavioral Research
+Methods. The task was designed as a somewhat more standardized way to
+compare response times between different people. For example, the
+original paper shows that young adults (18-25) respond faster than
+middle aged (45-60) and older adults (61-80).
